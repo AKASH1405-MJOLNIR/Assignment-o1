@@ -1,0 +1,54 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-normal-extra {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 34px;
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.btn-primary:hover {
+  background-color: red;
+}
+.banner-content{
+    /* margin: 310px 270px; */
+    text-align: center;
+    padding: 200px 50px;
+}
+.Cool{
+    font: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 50px;
+}

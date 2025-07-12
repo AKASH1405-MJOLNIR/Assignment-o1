@@ -74,7 +74,8 @@ nav{
   border-radius: 24px;
   border-style: hidden ;
   /* gap: 40px; */
-  background-color: #c7c6d1;
+  /* background-color: #c7c6d1; */
+  /* max-width: 500px; */
   background-position: center;
 }
 .heading{
@@ -90,7 +91,7 @@ nav{
     gap: 5px;
 
 }
-li{
+.li-container{
   list-style: none;
   text-align: center;
   font-size: 80px;
@@ -100,4 +101,25 @@ li{
 li p{
   font-size: 20px;
   font-style: #9e9999;
+}
+.form-section{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 130px 220px;
+    display: flex;
+}
+.final-head{
+    text-align: justify;
+    margin-left: 200px;
+    font-size: 97px;
+    font-weight: bold;
+}
+.reaction{
+    display: flex;|
+    justify-content: right;
+    margin-right: 200px;
+}
+.form-section{
+    
 }

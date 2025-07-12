@@ -47,6 +47,7 @@ nav{
     font-weight: bold;
     color: #252432;
 }
+
 .action{
     display: flex;
     justify-content: space-between;
@@ -62,6 +63,29 @@ nav{
   font-size: 40px;
   font-weight: bold;
 }
+footer input[type="text"]{
+  height: 32px 20px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  display: block;
+  width: 100%;
+}
+/* footer input[type="button"]{
+background-color: #4E47FF;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+    
+} */
+/* .btn-primary:hover {
+  background-color: red;
+  } */
+
+ 
+
 .subtitle{
   font-size: 25px;
   font-weight: normal;
@@ -81,6 +105,7 @@ nav{
 .heading{
   font-weight: bold;
   font-size: 38px;
+  color: #4E47FF;
   /* margin-top: 10px; */
 }
 .list-items{
@@ -93,14 +118,20 @@ nav{
 }
 .li-container{
   list-style: none;
-  text-align: center;
+  /* text-align: center; */
   font-size: 80px;
   color: #4E47FF;
   font-weight: bold;
+ 
+}
+li{
+   text-decoration: none;
+   
 }
 li p{
   font-size: 20px;
   font-style: #9e9999;
+  
 }
 .form-section{
   display: flex;
@@ -120,6 +151,10 @@ li p{
     justify-content: right;
     margin-right: 200px;
 }
-.form-section{
-    
-}
+
+ .last-list{
+  text-decoration: none;
+  display: inline block;
+  margin: 10px;
+
+ }
